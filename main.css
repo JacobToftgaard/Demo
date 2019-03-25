@@ -1,0 +1,58 @@
+body {
+  font-family: "Stardos Stencil";
+  background-color: rgb(165, 165, 173);
+}
+
+header {
+  color: lightskyblue;
+}
+
+#bold {
+  font-size: 3em;
+  font-weight: 400;
+}
+
+.navbar-dark .navbar-brand {
+  color: #17a2b8;
+}
+
+/* .navbar-dark .navbar-nav .active > .nav-link,
+.navbar-dark .navbar-nav .nav-link.active,
+.navbar-dark .navbar-nav .nav-link.show,
+.navbar-dark .navbar-nav .show > .nav-link {
+  color: #1dc9e4;
+} */
+
+#food {
+  color: chocolate;
+}
+
+.container-fluid {
+  padding: 0;
+}
+
+.middleText {
+  position: fixed;
+  top: 10%;
+  left: 50%;
+  text-align: center;
+}
+
+.carousel-caption {
+  font-size: 3em;
+  color: rgb(246, 246, 246);
+  text-shadow: rgb(54, 24, 24) 2px 2px;
+}
+
+.fa-check {
+  color: rgb(23, 218, 23);
+}
+
+h3 {
+  text-align: center;
+}
+
+img {
+  height: 100%;
+  max-height: 1100px;
+}
