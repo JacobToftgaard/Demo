@@ -27,59 +27,70 @@
   </head>
   <body>
     <!-- Header -->
-    <header>
-      <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
-        <a href="#" class="navbar-brand" id="bold"
-          ><i class="fas fa-hamburger" id="food"></i>
-          Nutrienten
-          <i class="fas fa-hamburger" id="food"></i>
-          <i class="fas fa-check"></i>
-        </a>
+    <div class="container-fluid">
+      <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+          <a href="https:anawesomefellow.com" class="navbar-brand" id="bold">
+            Nutrienten
+            <i class="fas fa-hamburger" id="food"></i>
+          </a>
 
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-toggle="collapse"
-          data-target="#navbarSupportedContent"
-          aria-controls="navbarSupportedContent"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
 
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav mr-auto">
-            <li class="nav-item active">
-              <a class="nav-link" href="#"
-                >Produkter <span class="sr-only">(current)</span></a
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+              <li class="nav-item active">
+                <a class="nav-link" href="#"
+                  >Produkter <span class="sr-only">(current)</span></a
+                >
+              </li>
+              <li class="nav-item active">
+                <a class="nav-link" href="#">Kontakt</a>
+              </li>
+            </ul>
+
+            <form class="form-inline my-2 my-lg-0">
+              <input
+                class="form-control mr-sm-2"
+                type="search"
+                placeholder="Søger du noget?"
+                aria-label="Search"
+              />
+              <button
+                class="btn btn-outline-secondary my-2 my-sm-0"
+                type="submit"
               >
-            </li>
-            <li class="nav-item active">
-              <a class="nav-link" href="#">Kontakt</a>
-            </li>
-          </ul>
-          <form class="form-inline my-2 my-lg-0">
-            <input
-              class="form-control mr-sm-2"
-              type="search"
-              placeholder="Søger du noget?"
-              aria-label="Search"
-            />
-            <button class="btn btn-outline-info my-2 my-sm-0" type="submit">
-              Søg
-            </button>
-          </form>
-        </div>
-      </nav>
-    </header>
+                Søg
+              </button>
+            </form>
+          </div>
+        </nav>
+      </header>
+    </div>
     <!-- Header -->
+
+    <div class="container-fluid firstDiv">
+      <p>
+        Spis det du har lyst til!
+      </p>
+    </div>
 
     <!-- Carousel -->
     <div
       id="carouselExampleControls"
-      class="carousel slide"
+      class="carousel slide container-fluid"
       data-ride="carousel"
+      style="min-height: 100%"
     >
       <div class="carousel-inner">
         <div class="carousel-item active">
@@ -89,20 +100,9 @@
             src="picture1.jpg"
             alt="First slide"
           />
-          <div class="carousel-caption">
+          <!-- <div class="carousel-caption">
             <span>Makro Planer</span>
-          </div>
-        </div>
-        <div class="carousel-item">
-          <img
-            class="img-fluid d-block w-100"
-            style="height:auto"
-            src="picture2.jpg"
-            alt="Second slide"
-          />
-          <div class="carousel-caption">
-            <span>Ingen dødsyge diæter </span>
-          </div>
+          </div> -->
         </div>
         <div class="carousel-item">
           <img
@@ -111,9 +111,9 @@
             src="picture3.jpg"
             alt="Third slide"
           />
-          <div class="carousel-caption">
+          <!-- <div class="carousel-caption">
             <span>Nå dine mål!</span>
-          </div>
+          </div> -->
         </div>
       </div>
       <a
@@ -138,66 +138,35 @@
     <!-- Carousel -->
 
     <!-- Text -->
-    <div class="container-fluid">
-      <h3>Tekst!</h3>
-      <p>
-        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Possimus,
-        dicta. Iste non saepe accusantium repellat odio aspernatur architecto
-        illo quia maiores, cumque ab asperiores ipsum rerum excepturi ex velit
-        blanditiis natus laboriosam eveniet, nostrum cum. Sunt earum est quos
-        maxime, tempora voluptatum natus esse porro asperiores in eligendi iusto
-        praesentium temporibus fuga adficiis, obcaecati commodi dolore qui quasi
-        harum omnis aliquid molestias inventore iusto ipsam fugit excepturi.
-        Atque optio aliquam, doloribus debitis iure nobis et beatae numquam eum
-        animi quam quis at officia nesciunt dolores temporibus minus praesentium
-        nulla? Hic ut odit eveniet voluptatum eaque dicta modi libero explicabo
-        tempore, cum animi, corporis architecto unde a nam. Id mollitia
-        quibusdam delectus, inventore tempore alias deserunt dolorem repellendus
-        hic. Sapiente, labore sunt, autem recusandae ipsa corrupti possimus
-        laboriosam eaque sequi illum dolores reiciendis repudiandae pariatur
-        architecto eveniet quis quidem velit distinctio, expedita culpa
-        consequatur. Voluptatibus eligendi harum, ullam dolore esse excepturi id
-        similique at deserunt tempora minima obcaecati, necessitatibus eum
-        quibusdam culpa ducimus eos modi aperiam est ratione vitae.
-      </p>
+    <div class="container-fluid" style="margin-top:50px">
+      <div class="row">
+        <div class="col">
+          <p style="color:cornsilk">
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Possimus,
+            dicta. Iste non saepe accusantium repellat odio aspernatur
+          </p>
+        </div>
+
+        <div class="col">
+          <p style="color:cornsilk">
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Possimus,
+            dicta. Iste non saepe accusantium repellat odio aspernatur
+            architecto illo quia maiores, cumque ab asperiores ipsum rerum
+
+            <img
+              src="Picture4.jpg"
+              alt="The tall picture"
+              class="img-fluid px-3"
+              id="walk-image"
+            />
+          </p>
+        </div>
+      </div>
     </div>
     <!-- Text -->
 
     <!-- Form -->
-    <form>
-      <div class="form-group">
-        <label for="exampleInputEmail1"
-          >Put din email ind lige her! Wup wup</label
-        >
-        <input
-          type="email"
-          class="form-control"
-          id="exampleInputEmail1"
-          aria-describedby="emailHelp"
-          placeholder="Enter email"
-        />
-        <small id="emailHelp" class="form-text text-muted"
-          >We'll never share your email with anyone else.</small
-        >
-      </div>
-      <div class="form-group">
-        <label for="exampleInputPassword1">Password</label>
-        <input
-          type="password"
-          class="form-control"
-          id="exampleInputPassword1"
-          placeholder="Password"
-        />
-      </div>
-      <div class="form-check">
-        <input type="checkbox" class="form-check-input" id="exampleCheck1" />
-        <label class="form-check-label" for="exampleCheck1"
-          >Prøv at klikke på den lille firkan! Ej, helt seriøst prøv det
-          lige!</label
-        >
-      </div>
-      <button type="submit" class="btn btn-primary">Submit</button>
-    </form>
+
     <!-- Form -->
 
     <!-- Bootstrap JS -->

@@ -1,27 +1,30 @@
 body {
   font-family: "Stardos Stencil";
-  background-color: rgb(165, 165, 173);
-}
-
-header {
-  color: lightskyblue;
+  background-color: #0b0709;
+  color: #d7ecf4;
 }
 
 #bold {
-  font-size: 3em;
+  font-size: 4em;
   font-weight: 400;
 }
 
 .navbar-dark .navbar-brand {
-  color: #17a2b8;
+  color: #ec121f;
 }
 
-/* .navbar-dark .navbar-nav .active > .nav-link,
-.navbar-dark .navbar-nav .nav-link.active,
-.navbar-dark .navbar-nav .nav-link.show,
-.navbar-dark .navbar-nav .show > .nav-link {
-  color: #1dc9e4;
-} */
+.navbar-brand {
+  padding-right: 2rem;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+  padding-right: 5rem;
+  font-size: 1.5rem;
+}
+
+.bg-dark {
+  background-color: #61000d !important;
+}
 
 #food {
   color: chocolate;
@@ -31,28 +34,38 @@ header {
   padding: 0;
 }
 
-.middleText {
-  position: fixed;
-  top: 10%;
-  left: 50%;
-  text-align: center;
-}
-
 .carousel-caption {
   font-size: 3em;
-  color: rgb(246, 246, 246);
-  text-shadow: rgb(54, 24, 24) 2px 2px;
+  color: #d7ecf4;
 }
 
-.fa-check {
-  color: rgb(23, 218, 23);
+.firstDiv {
+  min-height: 300px;
+  color: #ffffff;
 }
 
-h3 {
+.firstDiv p {
+  position: reltive;
+  font-size: 50px;
   text-align: center;
+  margin-bottom: 0;
+  padding-top: 100px;
 }
 
 img {
-  height: 100%;
-  max-height: 1100px;
+  padding: 10px 0px;
+}
+
+.carousel.slide.container-fluid {
+  position: relative;
+}
+
+#walk-image {
+  max-height: 500px;
+  overflow: hidden;
+  margin: 10px 0px 20px 0px;
+}
+
+div p {
+  padding: 0px 10px;
 }
